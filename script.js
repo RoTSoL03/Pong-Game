@@ -18,7 +18,7 @@ const cpuBar = {
     width: 10,
     height: 100,
     score: 0,
-    color: "white"
+    color: "red"
 };
 
 const ball = {
@@ -28,7 +28,7 @@ const ball = {
     velInXDir: 5,
     velInYDir: 5,
     speed: 7,
-    color: "green"
+    color: "white"
 };
 
 const separator = {
