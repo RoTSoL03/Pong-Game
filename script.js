@@ -9,7 +9,7 @@ const userBar = {
     width: 10,
     height: 100,
     score: 0,
-    color: "white"
+    color: "red"
 };
 
 const cpuBar = {
@@ -83,7 +83,7 @@ function drawSeparator() {
 }
 
 function drawScore() {
-    context.fillStyle = "white";
+    context.fillStyle = "orange";
     context.font = "30px Arial";
     context.fillText(userBar.score + " - " + cpuBar.score, canvas.width / 2 - 30, 30);
 }
